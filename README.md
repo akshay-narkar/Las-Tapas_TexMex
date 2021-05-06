@@ -1,20 +1,25 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Book Library
+# Las Tapas - The Mexican Restaurant
 
-This a project to create a webapp that acts as a personal library to save books you have read or to create a list of books to read.
+This a project to learn webpack and create a simple static website for a restaurant.
 
-## Library screenshot
+One can
 
-<img src="Screenshot.png" width="65%"/>
+- Switch between different tabs(Home, Menu & Contact)
+- Each tab displays a different information about the restaurant
 
-In this project we build a simple library app with vanilla javascript where you can:
+## Las Tapas screenshot
+
+<img src="./assets/menu.png"/>
 
 ## Built With
 
 - JavaScript
 - HTML
 - CSS
+- Bootstrap
+- Webpack
 
 ## Getting Started
 
@@ -22,6 +27,13 @@ To set up a local copy of the project
 
 - `git clone git@github.com:akshay-narkar/Las-Tapas_TexMex.git`
 - `cd Library-App`
+- `git pull origin feature`
+
+If you want to repack the file
+
+- Run `npm install` on the terminal to install dependancies
+- Run `npx webpack` to bundle the files in the src folder & product ouput in dist folder
+- Go to the dist folder and open index.html
 
 ## Live Link of the project
 
