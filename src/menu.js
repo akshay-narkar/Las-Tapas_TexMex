@@ -1,4 +1,4 @@
-import '../assets/menu.jpeg';
+import taco from '../assets/menu.jpeg';
 
 function menufunc() {
   const content = document.getElementById('content');
@@ -15,7 +15,7 @@ function menufunc() {
   const img = document.createElement('img');
   textonimage.appendChild(img);
   img.setAttribute('class', 'container d-flex');
-  img.setAttribute('src', '../assets/menu.jpeg');
+  img.setAttribute('src', taco);
 }
 
 export default menufunc;
