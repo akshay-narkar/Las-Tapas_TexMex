@@ -33,9 +33,15 @@ If you want to repack the file
 
 - Run `npm install` on the terminal to install dependancies
 - Run `npx webpack` to bundle the files in the src folder & product ouput in dist folder
+- Run `npm run start` to check live server
+
+  or
+
 - Go to the dist folder and open index.html
 
 ## Live Link of the project
+
+[Netlify Live Link](https://gifted-wing-c25fcc.netlify.app/)
 
 ## Author
 
