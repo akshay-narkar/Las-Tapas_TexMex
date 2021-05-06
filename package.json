@@ -1,0 +1,30 @@
+{
+  "name": "restaurantpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --watch",
+    "build": "webpack",
+    "start": "webpack serve --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "css-loader": "^5.2.4",
+    "eslint": "^7.25.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.2.0",
+    "style-loader": "^2.0.0",
+    "stylelint": "^7.13.0",
+    "stylelint-config-standard": "^16.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^1.5.2",
+    "webpack": "^5.36.2",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
